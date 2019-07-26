@@ -1,15 +1,11 @@
 import sys
 
-#Sets input boxes for the integers
+x=int(input("Input x."))
+y=int(input("Input y."))
 
-x=int(input("Type a number."))
-y=int(input("Type a number."))
+if x<y:
+    print("X is bigger than Y.")
+elif x>y:
+    print("Y is bigger than X.")
 
-#Adds up inputed integers and prints out result
-
-if x>y:
-    print("X =" ,x ,"which is bigger than Y =",y)
-elif x<y:
-    print("X =" ,x ,"which is smaller than Y =",y)
-elif x==y:
-    print("X =" ,x ,"which is the same value as Y =",y)
+input("\n Press a key to exit.")
